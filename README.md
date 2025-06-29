@@ -2,8 +2,6 @@
 
 **CitizenAI** is an intelligent conversational AI platform that enables governments to deliver smarter, faster, and more transparent services to citizens. Built with **Flask**, **IBM Granite models**, and **Hugging Face Transformers**, the platform provides real-time assistance, sentiment analysis, and actionable insights.
 
----
-
 ## 📌 Table of Contents
 
 - [🇮🇳 CitizenAI – Intelligent Citizen Engagement Platform](#-citizenai--intelligent-citizen-engagement-platform)
@@ -27,16 +25,12 @@
   - [📝 License](#-license)
   - [🙌 Acknowledgments](#-acknowledgments)
 
----
-
 ## 🚀 Project Overview
 
 CitizenAI bridges the gap between citizens and government services through real-time AI responses, feedback analytics, and issue reporting. The platform allows:
 - Citizens to interact naturally with a smart assistant.
 - Governments to monitor public sentiment and concerns.
 - Officials to take data-driven actions for improved service delivery.
-
----
 
 ## 🎯 Key Features
 
@@ -59,8 +53,6 @@ Powered by [IBM Granite Foundation Models](https://huggingface.co/ibm), CitizenA
 - **Sentiment Classification**
 
 These are served via `transformers`, `accelerate`, and `bitsandbytes` for efficient inference.
-
----
 
 ## 🧰 Tech Stack
 
@@ -99,9 +91,7 @@ CitizenAI/
 ├── requirements.txt           # Dependency list
 └── README.md                  # Project documentation
 
-````
-
----
+```
 
 ## ⚙️ Prerequisites
 
@@ -111,8 +101,6 @@ CitizenAI/
 - Optional: NVIDIA GPU with **8+ GB VRAM** (Recommended for inference)
 - CUDA drivers installed for GPU acceleration
 - Active internet connection (first run downloads models)
-
----
 
 ## 🛠️ Installation & Setup
 
@@ -132,9 +120,7 @@ pip install -r requirements.txt
 python app.py
 # Or using Flask's dev server
 flask run
-````
-
----
+```
 
 ## 📊 Dashboard View
 
@@ -143,8 +129,6 @@ The `/dashboard` route shows:
 * ✅ **Sentiment Counts** (Positive, Neutral, Negative)
 * 🧾 **List of Concerns** submitted by citizens
 * 📈 (Planned) Time-series trends and charts
-
----
 
 ## 💻 Development Plan (Milestones)
 
@@ -206,8 +190,6 @@ The `/dashboard` route shows:
 * Package into Docker container
 * Deploy to Render / Railway / Heroku
 
----
-
 ## 📌 Future Enhancements
 
 * 📊 Visual Dashboard using Chart.js
@@ -219,18 +201,12 @@ The `/dashboard` route shows:
 * 🌐 Responsive UI using Bootstrap or TailwindCSS
 * 🛡️ Security: CSRF protection, rate limiting
 
----
-
 ## 📝 License
 
 This project is licensed under the MIT License. See `LICENSE` file for details.
-
----
 
 ## 🙌 Acknowledgments
 
 * IBM Granite team and Hugging Face
 * Flask & PyTorch community
 * Open-source contributors
-
----
