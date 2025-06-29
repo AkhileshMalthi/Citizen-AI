@@ -1,4 +1,94 @@
-# CitizenAI – Intelligent Citizen Engagement Platform
+# 🤖 CitizenAI - Intelligent Citizen Engagement Platform
+
+CitizenAI is an intelligent citizen engagement platform designed to revolutionize how governments interact with the public. Leveraging Flask, IBM Granite models, and IBM Watson, CitizenAI provides real-time, AI-driven responses to citizen inquiries regarding government services, policies, and civic issues.
+
+## 🚀 Quick Start
+
+```bash
+# Install dependencies
+pip install -r requirements.txt
+
+# Run demo version (lightweight)
+python app_demo.py
+
+# Or run full AI version
+python app.py
+
+# Access at: http://localhost:5000
+# Login: admin / password
+```
+
+## ✨ Key Features
+
+- **💬 AI Chat Assistant** - Real-time conversational AI using IBM Granite models
+- **🧠 Sentiment Analysis** - Automatic feedback classification and trend analysis  
+- **📊 Analytics Dashboard** - Real-time visualizations with interactive charts
+- **⚠️ Concern Reporting** - Issue submission and tracking system
+- **🔐 User Authentication** - Secure session-based authentication
+- **📱 Responsive Design** - Modern UI that works on all devices
+
+## 📚 Documentation
+
+Complete documentation is available in the [`docs/`](docs/) folder:
+
+- **📋 [Setup Guide](docs/SETUP.md)** - Installation and configuration
+- **🏗️ [Build Progress](docs/BUILD_PROGRESS.md)** - Development timeline and milestones
+- **🚀 [Deployment Guide](docs/DEPLOYMENT.md)** - Production deployment instructions
+- **🔧 [API Reference](docs/API_REFERENCE.md)** - Complete API documentation
+- **🐛 [Dashboard Fixes](docs/DASHBOARD_FIXES.md)** - Technical fixes and improvements
+- **📖 [Documentation Index](docs/README.md)** - Complete documentation overview
+
+## 🛠️ Technology Stack
+
+- **Backend**: Python 3.11, Flask 3.0
+- **AI/ML**: PyTorch, Transformers, IBM Granite 3.0-3B
+- **Frontend**: HTML5, CSS3, JavaScript, Chart.js  
+- **Data**: In-memory storage (PostgreSQL ready)
+- **Deployment**: Docker, Kubernetes, AWS/Azure/GCP
+
+## 📁 Project Structure
+
+```
+CitizenAI/
+├── 📁 docs/                    # Complete documentation
+├── 📁 templates/              # HTML templates (6 pages)
+├── 📁 static/css/             # Modern CSS styling
+├── 📄 app.py                  # Main Flask application
+├── 📄 app_demo.py             # Lightweight demo version
+├── 📄 requirements.txt        # Python dependencies
+└── 📄 README.md               # This file
+```
+
+## 🎯 Use Cases
+
+1. **Government Services** - Citizens can ask questions about permits, licenses, and procedures
+2. **Feedback Collection** - Real-time sentiment analysis of citizen feedback  
+3. **Issue Reporting** - Streamlined concern submission and tracking
+4. **Analytics** - Government insights into citizen engagement and satisfaction
+
+## 💡 Getting Started
+
+1. **Installation**: Follow the [Setup Guide](docs/SETUP.md)
+2. **Demo**: Run `python app_demo.py` for immediate testing
+3. **Full Version**: Run `python app.py` for complete AI capabilities
+4. **Documentation**: Explore the [`docs/`](docs/) folder for detailed guides
+
+## 📞 Support
+
+- **📋 Setup Issues**: Check [Setup Guide](docs/SETUP.md)
+- **🔧 API Questions**: See [API Reference](docs/API_REFERENCE.md)  
+- **🚀 Deployment**: Follow [Deployment Guide](docs/DEPLOYMENT.md)
+- **🐛 Bug Reports**: Review [Dashboard Fixes](docs/DASHBOARD_FIXES.md)
+
+## 📄 License
+
+This project is licensed under the terms specified in the [LICENSE](LICENSE) file.
+
+---
+
+**CitizenAI - Empowering Citizens Through AI** 🚀
+
+*Building smarter government-citizen relationships with intelligent technology.* – Intelligent Citizen Engagement Platform
 
 **CitizenAI** is an intelligent conversational AI platform that enables governments to deliver smarter, faster, and more transparent services to citizens. Built with **Flask**, **IBM Granite models**, and **Hugging Face Transformers**, the platform provides real-time assistance, sentiment analysis, and actionable insights.
 
