@@ -1,3 +1,134 @@
+---
+layout: default
+title: CitizenAI Documentation
+---
+
+<style>
+/* Custom CSS for CitizenAI Documentation */
+:root {
+  --primary-color: #0366d6;
+  --secondary-color: #28a745;
+  --accent-color: #f39c12;
+  --background-color: #ffffff;
+  --text-color: #24292e;
+  --border-color: #e1e4e8;
+  --code-background: #f6f8fa;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', sans-serif;
+  line-height: 1.6;
+  color: var(--text-color);
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 600;
+  line-height: 1.25;
+  margin-top: 24px;
+  margin-bottom: 16px;
+}
+
+h1 {
+  font-size: 2em;
+  border-bottom: 1px solid var(--border-color);
+  padding-bottom: 0.3em;
+}
+
+h2 {
+  font-size: 1.5em;
+  border-bottom: 1px solid var(--border-color);
+  padding-bottom: 0.3em;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+  margin: 16px 0;
+  overflow: auto;
+}
+
+table th, table td {
+  padding: 12px 16px;
+  border: 1px solid var(--border-color);
+  text-align: left;
+}
+
+table th {
+  background-color: var(--code-background);
+  font-weight: 600;
+}
+
+table tr:nth-child(even) {
+  background-color: rgba(0, 0, 0, 0.02);
+}
+
+pre {
+  background-color: var(--code-background);
+  border-radius: 6px;
+  padding: 16px;
+  overflow: auto;
+  border: 1px solid var(--border-color);
+}
+
+code {
+  background-color: var(--code-background);
+  padding: 2px 4px;
+  border-radius: 3px;
+  font-size: 85%;
+}
+
+details {
+  margin: 16px 0;
+  border: 1px solid var(--border-color);
+  border-radius: 6px;
+}
+
+summary {
+  padding: 12px 16px;
+  cursor: pointer;
+  background-color: var(--code-background);
+  border-radius: 6px 6px 0 0;
+  font-weight: 600;
+}
+
+details[open] summary {
+  border-bottom: 1px solid var(--border-color);
+}
+
+details > *:not(summary) {
+  padding: 0 16px 16px;
+}
+
+blockquote {
+  padding: 16px;
+  margin: 16px 0;
+  color: #6a737d;
+  border-left: 4px solid var(--primary-color);
+  background-color: var(--code-background);
+  border-radius: 0 6px 6px 0;
+}
+
+.main-content {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+@media (max-width: 768px) {
+  table {
+    font-size: 14px;
+    overflow-x: auto;
+  }
+  
+  .main-content {
+    padding: 1rem;
+  }
+  
+  h1 { font-size: 1.75em; }
+  h2 { font-size: 1.375em; }
+}
+</style>
+
 <div align="center">
 
 # 🤖 CitizenAI Documentation

@@ -1,18 +1,18 @@
 # GitHub Pages Configuration
 title: CitizenAI Documentation
 description: Intelligent Citizen Engagement Platform - Empowering citizens through AI-driven engagement and real-time analytics
-baseurl: ""
-url: "https://AkhileshMalthi.github.io/Citizen-AI"
+baseurl: "/Citizen-AI"
+url: "https://AkhileshMalthi.github.io"
 
 # Theme
-theme: minima
-# Alternative: Use a remote theme for more modern look
-# remote_theme: pages-themes/cayman@v0.2.0
+remote_theme: pages-themes/cayman@v0.2.0
+# Alternative: theme: minima
 
 plugins:
   - jekyll-feed
   - jekyll-sitemap
   - jekyll-seo-tag
+  - jekyll-remote-theme
 
 # Markdown settings
 markdown: kramdown
