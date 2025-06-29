@@ -1,3 +1,8 @@
+---
+layout: default
+title: CitizenAI Documentation
+---
+
 <div align="center">
 
 # 🤖 CitizenAI Documentation
@@ -328,20 +333,6 @@ Our sentiment analysis engine provides real-time emotional intelligence for citi
 | 😞 **Negative** | < -0.1 | 🔴 Red | terrible, awful, frustrated, disappointed |
 
 </div>
-
-### 🔄 Processing Workflow
-
-```mermaid
-graph LR
-    A[User Input] --> B[Text Preprocessing]
-    B --> C[Keyword Analysis]
-    C --> D[Sentiment Scoring]
-    D --> E[Classification]
-    E --> F[Dashboard Update]
-    
-    style A fill:#e1f5fe
-    style F fill:#c8e6c9
-```
 
 ### 💡 Implementation
 
