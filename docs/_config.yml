@@ -4,9 +4,8 @@ description: Intelligent Citizen Engagement Platform - Empowering citizens throu
 baseurl: "/Citizen-AI"
 url: "https://AkhileshMalthi.github.io"
 
-# Theme
-remote_theme: pages-themes/cayman@v0.2.0
-# Alternative: theme: minima
+# Theme - using a more reliable theme for GitHub Pages
+remote_theme: pages-themes/primer@v0.6.0
 
 plugins:
   - jekyll-feed
